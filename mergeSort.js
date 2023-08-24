@@ -1,4 +1,4 @@
-function mergeSort(arr) {
+export default function mergeSort(arr) {
   if (arr.length < 2) return arr;
   const low = 0;
   const high = arr.length - 1;
